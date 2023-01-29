@@ -11,10 +11,7 @@ export const Home = ({ socket }: { socket: Socket }) => {
   return (
     <>
       <h4 className='text-center'>
-        Your name:{' '}
-        <Badge pill bg='primary'>
-          {user}
-        </Badge>
+        Your name: <Badge bg='primary'>{user}</Badge>
       </h4>
       <CreateRoomForm socket={socket} />
       <Rooms socket={socket} />

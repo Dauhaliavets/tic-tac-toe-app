@@ -28,7 +28,7 @@ export const CreateRoomForm = ({ socket }: { socket: Socket }) => {
         />
       </Form.Group>
       <Button variant='primary' type='submit' disabled={!roomName}>
-        Create room
+        Create
       </Button>
     </Form>
   )
